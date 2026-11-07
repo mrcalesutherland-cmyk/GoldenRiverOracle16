@@ -47,7 +47,7 @@ proxies = {
 # Global Persistent HTTP Session for Low-Latency Connection Pooling
 HTTP_SESSION = requests.Session()
 HTTP_SESSION.headers.update(HEADERS)
-HTTP_SESSION. proxies. update(poxies)'
+HTTP_SESSION. proxies. update(poxies)
 print("session initialized")
 print("headers updated")
 SHOW_GHOST_LINES = False
