@@ -1,3 +1,2 @@
 streamlit
-gitpython
-# trigger build
+GitPython
