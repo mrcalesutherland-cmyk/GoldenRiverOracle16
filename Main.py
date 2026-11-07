@@ -3443,9 +3443,7 @@ def run_multi_grid_oracle():
 
     fig.tight_layout(pad=3.5)
     fig.subplots_adjust(left=0.09, right=0.98, top=0.92, bottom=0.05, wspace=0.15, hspace=0.20)
-    plt.show(block=False)
-    plt.pause(0.5)
-
+    st.pyplot(fig)
     executor = concurrent.futures.ThreadPoolExecutor(max_workers=4)
     fingerprint_engine = LiveFingerprintEngine(DATA_DIR)
 
