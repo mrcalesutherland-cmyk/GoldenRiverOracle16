@@ -43,11 +43,11 @@ proxies = {
 'http': 'http://74.62.179.122:8080',
 'https': 'http://74.62.179.122:8080',
 }
-HTTP_SESSION.proxies.update(proxies)
 
 # Global Persistent HTTP Session for Low-Latency Connection Pooling
 HTTP_SESSION = requests.Session()
 HTTP_SESSION.headers.update(HEADERS)
+HTTP_SESSION. proxies. update(poxies)'
 print("session initialized")
 print("headers updated")
 SHOW_GHOST_LINES = False
