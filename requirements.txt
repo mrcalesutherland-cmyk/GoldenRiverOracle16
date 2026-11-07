@@ -3,6 +3,5 @@ dulwich
 requests
 numpy
 pandas
-concurrent.futures
 matplotlib
 matplotlib
