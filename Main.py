@@ -42,7 +42,7 @@ HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 
 proxies = {
 'http': 'http://74.62.179.122:8080',
-'https': 'http://74.62.179.122:8080',
+'http': 'http://74.62.179.122:8080',
 }
 
 # Global Persistent HTTP Session for Low-Latency Connection Pooling
