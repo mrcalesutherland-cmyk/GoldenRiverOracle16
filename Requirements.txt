@@ -1,2 +1,2 @@
-Streamlit
-GitPython
+streamlit
+gitpython
