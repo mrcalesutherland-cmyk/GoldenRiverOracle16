@@ -39,6 +39,12 @@ warnings.filterwarnings("ignore")
 BINANCE_SYMBOL = "NEIROUSDT"
 HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
 
+proxies = {
+'http': 'http://74.62.179.122:8080',
+'https': 'http://74.62.179.122:8080',
+}
+HTTP_SESSION.proxies.update(proxies)
+
 # Global Persistent HTTP Session for Low-Latency Connection Pooling
 HTTP_SESSION = requests.Session()
 HTTP_SESSION.headers.update(HEADERS)
