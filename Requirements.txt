@@ -1,2 +1,10 @@
 streamlit
 GitPython
+sqlite3
+requests
+warnings
+numpy
+pandas
+concurrent.futures
+matplotlib
+matplotlib
