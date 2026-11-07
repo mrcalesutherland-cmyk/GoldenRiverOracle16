@@ -1,5 +1,5 @@
 streamlit
-GitPython
+gitpython
 requests
 numpy
 pandas
