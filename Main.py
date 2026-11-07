@@ -4398,3 +4398,23 @@ def run_multi_grid_oracle():
 
 if __name__ == "__main__":
     run_multi_grid_oracle()
+def save_and_push_to_github(file_path, commit_message="Auto-save persistent file"):
+    repo_dir = os.getcwd()
+
+    try:
+        repo = Repo(repo_dir)
+
+        repo.git.config("user.email", "streamlit-bot@example.com")
+
+        repo.git.config("user.name", "Streamlit Bot")
+
+        repo.index.add([file_path])
+
+        repo.index.commit(commit_message)
+
+        origin = repo.remote(name='origin')
+        origin.push()
+        print(f"Successfully pushed {file_path} to GitHub!")
+
+    except Exception as e:
+        print(f"Git push failed: {e}")
