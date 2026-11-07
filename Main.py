@@ -16,6 +16,7 @@
 # REQUIRED PACKAGES: pip install numpy pandas matplotlib requests
 # -----------------------------------------------------------------------------
 
+import streamlit as st
 import os
 import dulwich
 import sys
