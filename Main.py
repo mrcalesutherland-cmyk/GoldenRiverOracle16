@@ -17,6 +17,7 @@
 # -----------------------------------------------------------------------------
 
 import os
+import Repo
 import sys
 import time
 import math
