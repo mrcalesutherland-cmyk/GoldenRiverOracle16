@@ -42,7 +42,7 @@ HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 # Global Persistent HTTP Session for Low-Latency Connection Pooling
 HTTP_SESSION = requests.Session()
 HTTP_SESSION.headers.update(HEADERS)
-
+print("session initialized")
 SHOW_GHOST_LINES = False
 
 try:
