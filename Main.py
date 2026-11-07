@@ -17,7 +17,7 @@
 # -----------------------------------------------------------------------------
 
 import os
-import Repo
+import Git
 import sys
 import time
 import math
